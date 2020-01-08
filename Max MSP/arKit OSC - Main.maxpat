@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 939.0 ],
+		"rect" : [ 42.0, 85.0, 1498.0, 939.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,44 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-306",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 616.0, 424.0, 150.0, 75.0 ],
+					"text" : "DONT FORGET TO MAKE PATHS DYNAMIC \"../assets/audio.wav\" blah blah\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-231",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 2085.71209728717804, 605.911732204258442, 151.0, 38.0 ],
+					"text" : "Sous patcher pour sauvegarde de point"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-199",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1972.0, 542.827909484505653, 151.0, 38.0 ],
+					"text" : "recoit la position actuel du joueur"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-502",
 					"maxclass" : "message",
@@ -7017,21 +7055,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -7150,21 +7188,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 1.0 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -7294,21 +7332,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 1 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 0.519837333862329 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -8882,21 +8920,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 0.56 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.0 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -9574,21 +9612,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 1 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -10099,7 +10137,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u272001345"
+													"varname" : "u436001366"
 												}
 
 											}
@@ -11653,7 +11691,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u923001344"
+													"varname" : "u558001365"
 												}
 
 											}
@@ -12469,21 +12507,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 0.92 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.72067710917227 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -13161,21 +13199,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 1 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 1.0 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -13296,21 +13334,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 0.92 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1.465186020731228 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 0.519837333862329 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -13950,7 +13988,7 @@
 													}
 ,
 													"text" : "autopattr",
-													"varname" : "u974001343"
+													"varname" : "u906001364"
 												}
 
 											}
@@ -17021,21 +17059,21 @@
 								"selection" : [ 0.0, 1.0 ],
 								"loop" : 1,
 								"content_state" : 								{
-									"speed" : [ 1 ],
+									"timestretch" : [ 0 ],
 									"mode" : [ "basic" ],
+									"originallengthms" : [ 0.0 ],
+									"formantcorrection" : [ 0 ],
+									"formant" : [ 1.0 ],
+									"originallength" : [ 0.0, "ticks" ],
+									"quality" : [ "basic" ],
+									"speed" : [ 1 ],
+									"slurtime" : [ 0.0 ],
 									"originaltempo" : [ 120.0 ],
 									"basictuning" : [ 440 ],
 									"pitchshift" : [ 0.519837333862329 ],
 									"play" : [ 0 ],
 									"pitchcorrection" : [ 0 ],
-									"followglobaltempo" : [ 0 ],
-									"originallengthms" : [ 0.0 ],
-									"quality" : [ "basic" ],
-									"timestretch" : [ 0 ],
-									"formantcorrection" : [ 0 ],
-									"formant" : [ 1.0 ],
-									"originallength" : [ 0.0, "ticks" ],
-									"slurtime" : [ 0.0 ]
+									"followglobaltempo" : [ 0 ]
 								}
 
 							}
@@ -18963,8 +19001,8 @@
 													"outlettype" : [ "", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 105.661017656326294, 309.491525888442993, 410.0, 410.0 ],
-													"xplace" : [ 0.84482342004776, 0.746366769075394 ],
-													"yplace" : [ 0.661784961819649, 0.760323345661163 ]
+													"xplace" : [ 0.0, 0.0 ],
+													"yplace" : [ 0.0, 0.0 ]
 												}
 
 											}
@@ -19328,8 +19366,8 @@
 													"outlettype" : [ "", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 99.661017656326294, 298.491525888442993, 410.0, 410.0 ],
-													"xplace" : [ 0.290860056877136, 0.84482342004776 ],
-													"yplace" : [ 0.0, 0.661784961819649 ]
+													"xplace" : [ 0.0, 0.0 ],
+													"yplace" : [ 0.0, 0.0 ]
 												}
 
 											}
@@ -19729,8 +19767,8 @@
 													"outlettype" : [ "", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 127.0, 320.491525888442993, 410.0, 410.0 ],
-													"xplace" : [ 0.746366769075394, 0.290860056877136 ],
-													"yplace" : [ 0.760323345661163, 0.0 ]
+													"xplace" : [ 0.0, 0.0 ],
+													"yplace" : [ 0.0, 0.0 ]
 												}
 
 											}
@@ -24454,7 +24492,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 515.0, 350.0, 640.0, 480.0 ],
+						"rect" : [ 42.0, 85.0, 1498.0, 939.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -24481,14 +24519,53 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-15",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 650.0, 212.5, 276.0, 75.0 ],
+									"text" : "Ancienne methode: \nCompare la position actuel [curposx] [curposZ] par rapport a une marge [margin]. Après avoir 'stocker' la postion, l'agorithme calcul si le joeur [curposx] [curposZ]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-6",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 561.0, 138.5, 276.0, 38.0 ],
+									"text" : "Engage la position actuel & attend pour le trigger de stockage du point"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"bubble" : 1,
+									"id" : "obj-199",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 487.0, 90.0, 151.0, 38.0 ],
+									"text" : "Recoit trigger pour mise a zero "
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-12",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 256.0, 146.5, 39.0, 22.0 ],
+									"patching_rect" : [ 113.5, 117.5, 39.0, 22.0 ],
 									"text" : "-1000"
 								}
 
@@ -24500,7 +24577,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 256.0, 103.0, 53.0, 22.0 ],
+									"patching_rect" : [ 113.5, 74.0, 53.0, 22.0 ],
 									"text" : "r p-reset"
 								}
 
@@ -24512,7 +24589,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 577.0, 146.5, 39.0, 22.0 ],
+									"patching_rect" : [ 423.0, 117.5, 39.0, 22.0 ],
 									"text" : "-1000"
 								}
 
@@ -24524,7 +24601,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 577.0, 103.0, 53.0, 22.0 ],
+									"patching_rect" : [ 423.0, 74.0, 53.0, 22.0 ],
 									"text" : "r p-reset"
 								}
 
@@ -24803,7 +24880,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 27.0, 28.0, 30.0, 30.0 ]
+									"patching_rect" : [ 22.0, 33.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -25046,6 +25123,73 @@
 									"source" : [ "obj-8", 0 ]
 								}
 
+							}
+ ],
+						"styles" : [ 							{
+								"name" : "AudioStatus_Menu",
+								"default" : 								{
+									"bgfillcolor" : 									{
+										"type" : "color",
+										"color" : [ 0.294118, 0.313726, 0.337255, 1 ],
+										"color1" : [ 0.454902, 0.462745, 0.482353, 0.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39,
+										"autogradient" : 0
+									}
+
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "Manuel1",
+								"default" : 								{
+									"fontname" : [ "Arial Bold" ],
+									"fontface" : [ 0 ],
+									"bgfillcolor" : 									{
+										"type" : "gradient",
+										"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+										"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+										"angle" : 270.0,
+										"proportion" : 0.39
+									}
+,
+									"fontsize" : [ 10.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjBlue-1",
+								"default" : 								{
+									"accentcolor" : [ 0.317647, 0.654902, 0.976471, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "newobjYellow-1",
+								"default" : 								{
+									"fontsize" : [ 12.059008 ],
+									"accentcolor" : [ 0.82517, 0.78181, 0.059545, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
+, 							{
+								"name" : "numberGold-1",
+								"default" : 								{
+									"accentcolor" : [ 0.764706, 0.592157, 0.101961, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
 							}
  ]
 					}
@@ -29551,8 +29695,8 @@
 ,
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.6 ],
 					"varname" : "points",
-					"xplace" : [ 0.84482342004776, 0.746366769075394, 0.290860056877136 ],
-					"yplace" : [ 0.661784961819649, 0.760323345661163, 0.0 ]
+					"xplace" : [ 0.5, 0.5, 0.5 ],
+					"yplace" : [ 0.5, 0.5, 0.5 ]
 				}
 
 			}
@@ -29573,7 +29717,7 @@
 					"nodecolor" : [ 0.843137254901961, 0.815686274509804, 0.0, 0.541176470588235 ],
 					"nodenumber" : 9,
 					"nodesnames" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9" ],
-					"nsize" : [ 0.069999998435378, 0.069999998435378, 0.069999998435378, 0.069999998435378, 0.069999998435378, 0.069999998435378, 0.069999998435378, 0.069999998435378, 0.069999998435378 ],
+					"nsize" : [ 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
@@ -35953,94 +36097,122 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-244::obj-64::obj-25" : [ "LPF", "LPF", 0 ],
-			"obj-87" : [ "number[3]", "number[3]", 0 ],
-			"obj-111" : [ "P1 T1[2]", "Séparation", 0 ],
-			"obj-485::obj-95" : [ "Vélocité[1]", "Vélocité", 0 ],
-			"obj-220::obj-431::obj-23" : [ "bypass", "bypass", 0 ],
-			"obj-495" : [ "number", "number", 0 ],
-			"obj-441::obj-303" : [ "live.dial[14]", "Preset", 0 ],
-			"obj-485::obj-96" : [ "Note[1]", "Note", 0 ],
-			"obj-358" : [ "Pan[3]", "Pan", 0 ],
-			"obj-247" : [ "live.gain~[7]", "Perdue", 0 ],
-			"obj-353" : [ "P1 T1[6]", "Origine", 0 ],
-			"obj-427::obj-316::obj-26" : [ "bypass[1]", "bypass", 0 ],
-			"obj-244::obj-64::obj-28" : [ "Feedback", "Feedback", 0 ],
-			"obj-441::obj-76" : [ "Durée[4]", "Durée", 0 ],
-			"obj-427::obj-708" : [ "live.dial[13]", "Attack", 0 ],
-			"obj-340" : [ "Pan[1]", "Pan", 0 ],
-			"obj-383" : [ "Pan[5]", "Pan", 0 ],
-			"obj-427::obj-316::obj-33" : [ "Damp[2]", "Damp", 0 ],
-			"obj-220::obj-57::obj-31" : [ "Feedback1", "FB1", 0 ],
-			"obj-441::obj-96" : [ "Note[5]", "Note", 0 ],
-			"obj-244::obj-67::obj-32" : [ "Feedback2[2]", "FB2", 0 ],
-			"obj-309" : [ "live.gain~[9]", "Perdue", 0 ],
-			"obj-220::obj-431::obj-1" : [ "Width", "Width", 0 ],
-			"obj-244::obj-67::obj-31" : [ "Feedback1[2]", "FB1", 0 ],
-			"obj-220::obj-57::obj-26" : [ "bypass[3]", "bypass", 0 ],
-			"obj-244::obj-64::obj-9" : [ "time", "Time", 0 ],
-			"obj-427::obj-707" : [ "live.dial[12]", "Decay", 0 ],
-			"obj-244::obj-67::obj-26" : [ "bypass[5]", "bypass", 0 ],
-			"obj-186" : [ "P1 T1[12]", "Harmonie", 0 ],
-			"obj-387" : [ "Pan[6]", "Pan", 0 ],
-			"obj-113" : [ "number[4]", "number[4]", 0 ],
-			"obj-509" : [ "number[1]", "number[1]", 0 ],
-			"obj-310" : [ "live.gain~[14]", "Harmonie", 0 ],
-			"obj-244::obj-64::obj-1" : [ "Mix", "Mix", 0 ],
-			"obj-244::obj-67::obj-101" : [ "Dry[2]", "Dry", 0 ],
-			"obj-171::obj-3" : [ "toggle[3]", "toggle", 0 ],
-			"obj-244::obj-64::obj-7" : [ "bypass[4]", "bypass", 0 ],
-			"obj-427::obj-705" : [ "live.dial[10]", "Sustain", 0 ],
-			"obj-220::obj-431::obj-2" : [ "Rate", "Rate", 0 ],
-			"obj-12" : [ "live.gain~", "Sortie LR", 0 ],
-			"obj-427::obj-316::obj-31" : [ "Feedback1[1]", "FB1", 0 ],
-			"obj-485::obj-76" : [ "Durée[1]", "Durée", 0 ],
-			"obj-39" : [ "P1 T1[11]", "Harmonie", 0 ],
-			"obj-400" : [ "Pan[7]", "Pan", 0 ],
-			"obj-308" : [ "live.gain~[8]", "Séparation", 0 ],
-			"obj-427::obj-316::obj-101" : [ "Dry[1]", "Dry", 0 ],
-			"obj-244::obj-64::obj-21" : [ "HPF", "HPF", 0 ],
+			"obj-427::obj-316::obj-32" : [ "Feedback2[1]", "FB2", 0 ],
 			"obj-485::obj-303" : [ "live.dial[15]", "Preset", 0 ],
-			"obj-196" : [ "P1 T1[13]", "Harmonie", 0 ],
+			"obj-427::obj-707" : [ "live.dial[12]", "Decay", 0 ],
 			"obj-244::obj-67::obj-33" : [ "Damp[3]", "Damp", 0 ],
+			"obj-171::obj-3" : [ "toggle[3]", "toggle", 0 ],
 			"obj-220::obj-57::obj-32" : [ "Feedback2", "FB2", 0 ],
-			"obj-370" : [ "Pan[4]", "Pan", 0 ],
-			"obj-220::obj-431::obj-28" : [ "Center", "Center", 0 ],
+			"obj-441::obj-76" : [ "Durée[4]", "Durée", 0 ],
+			"obj-495" : [ "number", "number", 0 ],
+			"obj-310" : [ "live.gain~[14]", "Harmonie", 0 ],
 			"obj-260" : [ "points", "points", 0 ],
-			"obj-301" : [ "P1 T1[10]", "Origine", 0 ],
 			"obj-320" : [ "live.gain~[5]", "Perdue", 0 ],
+			"obj-427::obj-316::obj-101" : [ "Dry[1]", "Dry", 0 ],
+			"obj-441::obj-96" : [ "Note[5]", "Note", 0 ],
+			"obj-244::obj-64::obj-28" : [ "Feedback", "Feedback", 0 ],
+			"obj-441::obj-303" : [ "live.dial[14]", "Preset", 0 ],
+			"obj-485::obj-76" : [ "Durée[1]", "Durée", 0 ],
+			"obj-387" : [ "Pan[6]", "Pan", 0 ],
+			"obj-87" : [ "number[3]", "number[3]", 0 ],
+			"obj-427::obj-706" : [ "live.dial[11]", "Release", 0 ],
+			"obj-12" : [ "live.gain~", "Sortie LR", 0 ],
+			"obj-220::obj-57::obj-101" : [ "Dry", "Dry", 0 ],
+			"obj-427::obj-316::obj-26" : [ "bypass[1]", "bypass", 0 ],
+			"obj-301" : [ "P1 T1[10]", "Origine", 0 ],
+			"obj-111" : [ "P1 T1[2]", "Séparation", 0 ],
+			"obj-220::obj-431::obj-3" : [ "Regen", "Regen", 0 ],
+			"obj-244::obj-64::obj-1" : [ "Mix", "Mix", 0 ],
+			"obj-427::obj-316::obj-33" : [ "Damp[2]", "Damp", 0 ],
+			"obj-422" : [ "Pan[8]", "Pan", 0 ],
+			"obj-448" : [ "live.gain~[4]", "Perdue", 0 ],
+			"obj-32::obj-3" : [ "toggle[1]", "toggle", 0 ],
+			"obj-353" : [ "P1 T1[6]", "Origine", 0 ],
+			"obj-113" : [ "number[4]", "number[4]", 0 ],
+			"obj-189" : [ "Pan", "Pan", 0 ],
+			"obj-220::obj-431::obj-23" : [ "bypass", "bypass", 0 ],
+			"obj-244::obj-33" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-427::obj-708" : [ "live.dial[13]", "Attack", 0 ],
+			"obj-284" : [ "P1 T1[9]", "Séparation", 0 ],
+			"obj-280" : [ "nodes", "nodes", 0 ],
+			"obj-244::obj-64::obj-21" : [ "HPF", "HPF", 0 ],
+			"obj-383" : [ "Pan[5]", "Pan", 0 ],
+			"obj-309" : [ "live.gain~[9]", "Perdue", 0 ],
+			"obj-509" : [ "number[1]", "number[1]", 0 ],
+			"obj-186" : [ "P1 T1[12]", "Harmonie", 0 ],
+			"obj-244::obj-67::obj-101" : [ "Dry[2]", "Dry", 0 ],
+			"obj-308" : [ "live.gain~[8]", "Séparation", 0 ],
+			"obj-184" : [ "P1 T1[8]", "Origine", 0 ],
+			"obj-427::obj-316::obj-31" : [ "Feedback1[1]", "FB1", 0 ],
+			"obj-244::obj-64::obj-7" : [ "bypass[4]", "bypass", 0 ],
+			"obj-340" : [ "Pan[1]", "Pan", 0 ],
+			"obj-220::obj-57::obj-31" : [ "Feedback1", "FB1", 0 ],
+			"obj-355" : [ "Pan[2]", "Pan", 0 ],
+			"obj-244::obj-67::obj-32" : [ "Feedback2[2]", "FB2", 0 ],
+			"obj-358" : [ "Pan[3]", "Pan", 0 ],
+			"obj-220::obj-431::obj-1" : [ "Width", "Width", 0 ],
+			"obj-441::obj-95" : [ "Vélocité[4]", "Vélocité", 0 ],
+			"obj-244::obj-67::obj-31" : [ "Feedback1[2]", "FB1", 0 ],
+			"obj-247" : [ "live.gain~[7]", "Perdue", 0 ],
+			"obj-244::obj-67::obj-26" : [ "bypass[5]", "bypass", 0 ],
 			"obj-150" : [ "P1 T1[3]", "Séparation", 0 ],
+			"obj-244::obj-64::obj-9" : [ "time", "Time", 0 ],
+			"obj-427::obj-705" : [ "live.dial[10]", "Sustain", 0 ],
+			"obj-400" : [ "Pan[7]", "Pan", 0 ],
 			"obj-131" : [ "number[6]", "number[6]", 0 ],
 			"obj-307" : [ "live.gain~[13]", "Origine", 0 ],
-			"obj-511" : [ "number[2]", "number[2]", 0 ],
-			"obj-448" : [ "live.gain~[4]", "Perdue", 0 ],
+			"obj-485::obj-95" : [ "Vélocité[1]", "Vélocité", 0 ],
 			"obj-122" : [ "number[5]", "number[5]", 0 ],
-			"obj-284" : [ "P1 T1[9]", "Séparation", 0 ],
-			"obj-441::obj-95" : [ "Vélocité[4]", "Vélocité", 0 ],
-			"obj-280" : [ "nodes", "nodes", 0 ],
-			"obj-189" : [ "Pan", "Pan", 0 ],
-			"obj-220::obj-57::obj-101" : [ "Dry", "Dry", 0 ],
 			"obj-220::obj-57::obj-33" : [ "Damp[1]", "Damp", 0 ],
-			"obj-427::obj-316::obj-32" : [ "Feedback2[1]", "FB2", 0 ],
-			"obj-220::obj-431::obj-3" : [ "Regen", "Regen", 0 ],
-			"obj-422" : [ "Pan[8]", "Pan", 0 ],
-			"obj-427::obj-706" : [ "live.dial[11]", "Release", 0 ],
+			"obj-220::obj-431::obj-2" : [ "Rate", "Rate", 0 ],
+			"obj-485::obj-96" : [ "Note[1]", "Note", 0 ],
+			"obj-39" : [ "P1 T1[11]", "Harmonie", 0 ],
+			"obj-220::obj-431::obj-28" : [ "Center", "Center", 0 ],
+			"obj-220::obj-57::obj-26" : [ "bypass[3]", "bypass", 0 ],
 			"obj-291::obj-3" : [ "toggle[2]", "toggle", 0 ],
-			"obj-184" : [ "P1 T1[8]", "Origine", 0 ],
-			"obj-32::obj-3" : [ "toggle[1]", "toggle", 0 ],
-			"obj-244::obj-33" : [ "live.gain~[6]", "live.gain~", 0 ],
-			"obj-355" : [ "Pan[2]", "Pan", 0 ],
+			"obj-196" : [ "P1 T1[13]", "Harmonie", 0 ],
+			"obj-370" : [ "Pan[4]", "Pan", 0 ],
+			"obj-511" : [ "number[2]", "number[2]", 0 ],
+			"obj-244::obj-64::obj-25" : [ "LPF", "LPF", 0 ],
 			"parameterbanks" : 			{
 
 			}
 ,
 			"parameter_overrides" : 			{
+				"obj-427::obj-316::obj-32" : 				{
+					"parameter_longname" : "Feedback2[1]"
+				}
+,
+				"obj-244::obj-67::obj-33" : 				{
+					"parameter_longname" : "Damp[3]"
+				}
+,
+				"obj-427::obj-316::obj-101" : 				{
+					"parameter_longname" : "Dry[1]"
+				}
+,
 				"obj-427::obj-316::obj-26" : 				{
 					"parameter_longname" : "bypass[1]"
 				}
 ,
 				"obj-427::obj-316::obj-33" : 				{
 					"parameter_longname" : "Damp[2]"
+				}
+,
+				"obj-244::obj-33" : 				{
+					"parameter_longname" : "live.gain~[6]"
+				}
+,
+				"obj-244::obj-67::obj-101" : 				{
+					"parameter_longname" : "Dry[2]"
+				}
+,
+				"obj-427::obj-316::obj-31" : 				{
+					"parameter_longname" : "Feedback1[1]"
+				}
+,
+				"obj-244::obj-64::obj-7" : 				{
+					"parameter_longname" : "bypass[4]"
 				}
 ,
 				"obj-244::obj-67::obj-32" : 				{
@@ -36053,34 +36225,6 @@
 ,
 				"obj-244::obj-67::obj-26" : 				{
 					"parameter_longname" : "bypass[5]"
-				}
-,
-				"obj-244::obj-67::obj-101" : 				{
-					"parameter_longname" : "Dry[2]"
-				}
-,
-				"obj-244::obj-64::obj-7" : 				{
-					"parameter_longname" : "bypass[4]"
-				}
-,
-				"obj-427::obj-316::obj-31" : 				{
-					"parameter_longname" : "Feedback1[1]"
-				}
-,
-				"obj-427::obj-316::obj-101" : 				{
-					"parameter_longname" : "Dry[1]"
-				}
-,
-				"obj-244::obj-67::obj-33" : 				{
-					"parameter_longname" : "Damp[3]"
-				}
-,
-				"obj-427::obj-316::obj-32" : 				{
-					"parameter_longname" : "Feedback2[1]"
-				}
-,
-				"obj-244::obj-33" : 				{
-					"parameter_longname" : "live.gain~[6]"
 				}
 
 			}
@@ -36203,6 +36347,8 @@
 , 			{
 				"name" : "Manuel1",
 				"default" : 				{
+					"fontname" : [ "Arial Bold" ],
+					"fontface" : [ 0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
@@ -36212,9 +36358,7 @@
 						"proportion" : 0.39
 					}
 ,
-					"fontsize" : [ 10.0 ],
-					"fontname" : [ "Arial Bold" ],
-					"fontface" : [ 0 ]
+					"fontsize" : [ 10.0 ]
 				}
 ,
 				"parentstyle" : "",
